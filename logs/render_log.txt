@@ -1,0 +1,10 @@
+[13:02:35] ==== AC6 渲染开始 | blender 5.2.2 LTS ====
+[13:02:35] Workbench 不可用（RuntimeError('错误: 无法渲染, 没有摄像机\n')），降级 Cycles CPU
+[13:02:35] 渲染引擎: CYCLES
+[13:02:35] 渲染完成 AC6_front_ortho.png (0.2s)
+[13:02:35] 渲染完成 AC6_left_ortho.png (0.3s)
+[13:02:35] 渲染完成 AC6_top_ortho.png (0.3s)
+[13:02:35] 渲染完成 AC6_side_knee_annotated.png (0.4s)
+[13:02:41] 渲染完成 AC6_silhouette_26m_45vfov.png (6.3s)
+[13:02:42] 剪影背景刷白完成 AC6_silhouette_26m_45vfov.png
+[13:02:42] 渲染结束 | 用时 6.7s

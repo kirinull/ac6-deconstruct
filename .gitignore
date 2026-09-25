@@ -1,0 +1,65 @@
+# ─────────────────────────────────────────────────────────────
+#  AC6 拆解项目 · .gitignore
+#  目的：防止「从游戏解包数据派生的内容」被误提交/推到公开仓库
+#  ⚠️ 这些文件仅供本地个人学习研究，不要分发
+# ─────────────────────────────────────────────────────────────
+
+# ── ① 游戏原始数据（绝对不能提交）──────────────────────────
+# 本机解包的 regulation.bin 等（在项目外，但防止有人拷进来）
+*.param
+*.paramdef
+*.dcx
+*.bnd
+*.bdt
+*.bin
+regulation*
+
+# 如果你的解包目录被拷进项目（或做了软链接）
+unpacked/
+regulation-bin/
+van/
+mob/
+reibis/
+pdef/
+
+# ── ② 由游戏数据派生的内容（同样不能提交）────────────────
+# ★ UE5 DataTable 导出产物：字段名+数值来自游戏
+data/ue_datatables/
+# 若以后注入过数据
+data/injected/
+
+# 但 data/ 里的「分析产物」可以提交（它们是结构与统计，不含原始资产）：
+#   param_tables_van.csv / param_tables_all.csv  → 行数/行宽等结构统计
+#   param_系统映射.md / 字段参考.md / 装配界面规格书.md → 字段名索引与说明
+# 如果你对「字段名本身算不算游戏资产」有疑虑，把下面两行也取消注释：
+# data/字段参考.md
+# data/装配界面规格书.md
+
+# ── ③ 过程性产物 ──────────────────────────────────────
+_scratch/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ── ④ UE5 项目产物（若以后在此目录建 UE 工程）─────────────
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vscode/
+
+# ── ⑤ 其它 ────────────────────────────────────────────
+*.log
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store

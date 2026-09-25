@@ -1,0 +1,17 @@
+[13:02:33] ==== AC6 建模开始 | blender 5.2.2 LTS ====
+[13:02:33] [BUILD] 1/9 11% Torso (LOD0 6238 tri)  (14.26件/s, ETA 1s, 错误 0)
+[13:02:33] [BUILD] 2/9 22% Head (LOD0 1056 tri)  (21.91件/s, ETA 0s, 错误 0)
+[13:02:33] [BUILD] 3/9 33% Backpack (LOD0 3832 tri)  (20.93件/s, ETA 0s, 错误 0)
+[13:02:33] [BUILD] 4/9 44% LegL (LOD0 6840 tri)  (17.94件/s, ETA 0s, 错误 0)
+[13:02:33] [BUILD] 5/9 56% LegR (LOD0 6840 tri)  (20.03件/s, ETA 0s, 错误 0)
+[13:02:33] [BUILD] 6/9 67% ArmL (LOD0 2752 tri)  (21.42件/s, ETA 0s, 错误 0)
+[13:02:33] [BUILD] 7/9 78% ArmR (LOD0 2752 tri)  (23.99件/s, ETA 0s, 错误 0)
+[13:02:33] [BUILD] 8/9 89% GunL (LOD0 1432 tri)  (25.43件/s, ETA 0s, 错误 0)
+[13:02:33] [BUILD] 9/9 100% GunR (LOD0 1432 tri)  (28.02件/s, ETA 0s, 错误 0)
+[13:02:33] 镜像自检 LegL/LegR 最大偏差 0.0000 m  PASS
+[13:02:33] 镜像自检 ArmL/ArmR 最大偏差 0.0000 m  PASS
+[13:02:33] 镜像自检 GunL/GunR 最大偏差 0.0000 m  PASS
+[13:02:33] LOD0 合计三角面: 33174
+[13:02:33] LOD1 合计三角面: 13636
+[13:02:33] LOD2 合计三角面: 2126
+[13:02:33] 已保存 <repo>\assets\mech\AC6Mech.blend | 错误 0 | 用时 0.4s
